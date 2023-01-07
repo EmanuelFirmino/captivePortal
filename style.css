@@ -33,7 +33,36 @@ body, html {
 
 .form-area {
     margin-top: 10%;
+    animation: rotate 5s infinite ease;
+    
 }
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.form-area form #input-field-user:focus {
+    width: 18em;
+    transition: 250ms ease-in;
+    border-style:outset;
+    background-color:floralwhite;
+    border-color: whitesmoke;
+}
+
+.form-area form #input-field-pass:focus {
+    width: 18em;
+    transition: 250ms ease-in;
+    border-style:outset;
+    background-color:floralwhite;
+    border-color: whitesmoke;
+}
+
 
 .form-area form #input-field-user {
     width: 15em;
