@@ -9,6 +9,7 @@ body, html {
     background: linear-gradient(to left, palevioletred, deeppink, blueviolet);
 }
 
+
 .login-box {
     position: fixed;
     width: 30em;
@@ -21,12 +22,13 @@ body, html {
     background-color: rgba(255, 255, 255, 0.7);
     justify-content: center;
     text-align: center;
-    box-shadow: 0 0px 10px 1px;
-    color: aqua;  
+    border:dashed deeppink;
+    box-shadow: 0 0 10px 1px white; 
 }
 
 .login-box .logo-area {
-    margin-top: 8rem; 
+
+    margin-top: 8rem;
 }
 
 .form-area {
@@ -79,7 +81,7 @@ body, html {
     font-family: Comic Sans MS;
     font-weight: bold;
     cursor: pointer;
-    box-shadow: 0px 2px black;
+    box-shadow: 0px 2px blueviolet;
 }
 
 .form-area form #button:focus {
